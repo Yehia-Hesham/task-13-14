@@ -1,0 +1,129 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+header{
+    padding: 0 16%;
+}
+
+/* body */
+#body-title{
+    display: flex;
+    flex: left;
+    align-self: flex-start;
+    align-items: baseline;
+}
+
+#body-title>p{
+    padding-left: 15px;
+}
+
+.row{
+    margin-bottom: 3%;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.card-title, h1{
+    color: #41a1a5;
+}
+
+.card-img-top{
+    height: 200px;
+}
+.card-body{
+    background-color: #f3f3f3;
+    text-align: center;
+}
+
+.grid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: right;
+}
+
+.grid-item{
+    display: flex;
+    padding: 0 4%;
+}
+
+.small-comment{
+    padding-left: 4px;
+    font-size: small;
+}
+
+.grey{
+    color: #bbbbbb;
+}
+
+/* footer */
+footer{
+    padding: 3% 0 8% 0;
+    height: 600px;
+    background-color: #17a6b6;
+    color: white;
+    background-image: url("/images/small-duck-svgrepo-com.svg");
+    background-repeat: no-repeat;
+    background-position: center right 16%;
+
+}
+.grid-item-footer{
+    padding: 1%;
+    display: flex;
+    flex: left;
+    
+}
+.grid-item-footer>p{
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.contact-form{
+   /* padding: 30px;  */
+   color:#41a1a5;
+   background-color: white;
+   border: none;
+}
+/* .footer-color{
+    color: white;
+} */
+.large-icon{
+    background-color: white;
+    color:#41a1a5;
+    border-radius: 50%;
+    padding: 42px;
+    margin-right: 30px;
+    margin: 3% 3% 15% 0;
+}
+input{
+    width: 80%;
+    margin:0;
+}
+
+#email-button{
+    width: 18%;
+    border:none;
+    color: #41a1a5;
+    font-weight: bold;
+    background-color: #bbbbbb;
+    padding: 1px 4px;
+}
+
+.modal-body img{
+    width: 100%;
+    height: 7 rem;
+}
+.content{
+    display:none;
+}
+
+.is-active{
+    display:block;
+}
+

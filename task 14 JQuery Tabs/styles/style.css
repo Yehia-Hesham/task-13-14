@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* color: grey; */
+}
+.content{
+    display:none;
+}
+
+/* .active{
+    display: block;
+} */
+
+.is-active{ 
+    display:block;
+    /* background-color: grey; */
+    color: green;
+}
+
+.is-active:hover{
+    color: red;
+}
